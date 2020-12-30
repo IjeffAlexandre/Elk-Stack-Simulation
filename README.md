@@ -8,7 +8,7 @@ Heres the Breakdown
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._ 
-![TODO: Update the path with the name of your diagram](elk-playbook.yml)
+![Elk-playnook.yml](elk-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
