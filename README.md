@@ -7,35 +7,8 @@ Heres the Breakdown
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._ elk-playbook.yml
----
-- name: Installing and Launch Filebeat
-  hosts: webservers
-  become: yes
-  tasks:
-   
-  - name: Download filebeat .deb file
-    command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.4.0-amd64.deb
-   
-  - name: Install filebeat .deb
-    command: dpkg -i filebeat-7.4.0-amd64.deb
-   
-  - name: Drop in filebeat.yml
-    copy:
-      src: /etc/ansible/files/filebeat-config.yml
-      dest: /etc/filebeat/filebeat.yml
-   
-  - name: Enable and Configure System Module
-    command: filebeat modules enable system
-   
-  - name: Setup filebeat
-    command: filebeat setup
-   
-  - name: Start filebeat service
-    command: service filebeat start
-  
-  
-  
+  - _TODO: Enter the playbook file._ 
+![TODO: Update the path with the name of your diagram](elk-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
