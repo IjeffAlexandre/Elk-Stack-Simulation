@@ -45,10 +45,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 ### Access Policies
 
-The machines on the internal network are not exposed to the public Internet. 
+The machines on the internal network are not exposed to the public Internet.
+The Jump-box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses 
 
-Only the Jump-box  machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses 
--
+192.24.28.237-SSH port 22 
+
 Machines within the network can only be accessed by Jump-Box.
 Which machine did you allow to access your ELK VM - Jump-Box
 
@@ -59,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes             | 10.0.0.1 10.0.0.2    |
+| Jump Box | Yes                 | 192.24.28.237/10.0.04|
 |          |                     |                      |
 |          |                     |                      |
 
