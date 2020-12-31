@@ -30,8 +30,9 @@ Load balancing ensures that the application will be highly accessible in additio
 A stable load balancers protects - The Web Application Firwall (WAF) this layer of protection keeps the website in top notch shape. The Jump-box can still provive service if ports are falling each other.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+
+What does Filebeat watch - Filebeat reviews data logs then sends it to the correct output. unit.
+What does Metricbeat record - Metricbeat collects up content on server, then take metrics from the operating system to out configuration.
 
 The configuration details of each machine may be found below.
 
@@ -49,8 +50,8 @@ The Jump-box machine can accept connections from the Internet. Access to this ma
 
 SSH port 22 
 
-Machines within the network can only be accessed by Jump-Box.
-Which machine did you allow to access your ELK VM - Jump-Box.
+Machines within the network can only be accessed by Jump-Box-Provisioner.
+Which machine did you allow to access your ELK VM - Jump-Box-Provisioner.
 
 Private IP address  - 10.0.0.4
 
