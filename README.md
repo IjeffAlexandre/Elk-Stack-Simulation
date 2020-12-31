@@ -37,10 +37,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| WEB #1   |          |            | |
-| WEB #2   |          |            |                  |
-| ELK #    |          |            |                  |
+| Jump-Box P| Gateway | 10.0.0.4   | Linux            |
+| WEB  1   | Webserver| 10.0.0.10  | Linux            |
+| WEB  2   | Webserver| 10.0.0.11  | Linux            |
+| ELK VM   | MainPort | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
