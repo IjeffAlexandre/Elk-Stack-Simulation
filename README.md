@@ -82,8 +82,10 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
+
 Webserver 1 10.0.0.10
-Webserver 1 10.0.0.11
+
+Webserver 210.0.0.11
 
 We have installed Metricbeat and filebeat these machines:
 
@@ -97,6 +99,7 @@ Filebeat reviews data logs then sends it to the correct output. unit.
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
+
 -Copy the Playbook file to Ansible.
 -Update the host file to include both webserver and ELK.
 -Run the playbook, and navigate to Kibana to check that the installation worked as expected.
