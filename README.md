@@ -78,14 +78,14 @@ Install Docker python module
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](sps.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](images/sps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
 Webserver 1 10.0.0.10
 
-Webserver 210.0.0.11
+Webserver 2 10.0.0.11
 
 We have installed Metricbeat and filebeat these machines:
 
