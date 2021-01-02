@@ -78,7 +78,7 @@ Install Docker python module
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](images/docker_ps_output.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](sps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -101,7 +101,9 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 -Copy the Playbook file to Ansible.
+
 -Update the host file to include both webserver and ELK.
+
 -Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
