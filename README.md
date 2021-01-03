@@ -111,6 +111,7 @@ nano ansible.cfg
 Webservers
 
 10.0.0.10 ansible_python_interpreter=/usr/bin/python3
+
 10.0.0.11 ansible_python_interpreter=/usr/bin/python3
 
 
