@@ -102,7 +102,7 @@ SSH into the control node and follow the steps below:
 
 -Copy the Playbook file to Ansible.
 
-![TODO: Update the path with the name of your diagram](images/last part config.png) 
+![TODO: Update the path with the name of your diagram](last part config.png) 
 
 
 -Update the host file to include both webserver and ELK.
