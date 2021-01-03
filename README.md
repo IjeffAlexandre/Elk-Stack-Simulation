@@ -102,14 +102,16 @@ SSH into the control node and follow the steps below:
 
 -Copy the Playbook file to Ansible.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](images/last part config.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](images/welcome.png)
 
 
 -Update the host file to include both webserver and ELK.
 
+
 Webservers
 10.0.0.10 ansible_python_interpreter=/usr/bin/python3
 10.0.0.11 ansible_python_interpreter=/usr/bin/python3
+
 
 Elk
 10.1.0.4 ansible_python_interpreter=/usr/bin/python3
