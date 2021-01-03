@@ -102,7 +102,7 @@ SSH into the control node and follow the steps below:
 
 -Copy the Playbook file to Ansible.
 
-![TODO: Update the path with the name of your diagram](last part config.png) 
+![](last part config.png) 
 
 
 -Update the host file to include both webserver and ELK.
@@ -116,9 +116,8 @@ SSH into the control node and follow the steps below:
 ![TODO: Update the path with the name of your screenshot of docker ps output](images/welcome.png)
 
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+
+
+
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
