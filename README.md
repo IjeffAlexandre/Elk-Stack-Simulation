@@ -106,6 +106,10 @@ SSH into the control node and follow the steps below:
 
 -Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
+![TODO: Update the path with the name of your screenshot of docker ps output](images/last.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](images/welcome.png)
+
+
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
