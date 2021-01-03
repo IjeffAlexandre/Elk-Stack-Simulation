@@ -107,6 +107,7 @@ SSH into the control node and follow the steps below:
 -Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](images/last.png)
+
 ![TODO: Update the path with the name of your screenshot of docker ps output](images/welcome.png)
 
 
