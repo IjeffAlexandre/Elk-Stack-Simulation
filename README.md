@@ -102,11 +102,16 @@ SSH into the control node and follow the steps below:
 
 -Copy the Playbook file to Ansible.
 
+![TODO: Update the path with the name of your diagram](images/last part config.png) 
+
+
 -Update the host file to include both webserver and ELK.
+
 
 -Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](images/last.png)
+
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](images/welcome.png)
 
